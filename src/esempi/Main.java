@@ -1,4 +1,4 @@
-package controller;
+package esempi;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -35,7 +35,7 @@ public class Main
             //manda avanti il cursore
             //ci dice se abbiamo ancora righe da leggere
             ArrayList<Person> people = new ArrayList<>();
-            
+
             while (rs.next()) 
             {
                 String name = rs.getString("name");
